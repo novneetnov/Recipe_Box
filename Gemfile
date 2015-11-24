@@ -14,6 +14,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'unicorn'
 # gem 'capistrano-rails', group: :development
 gem 'haml', '~> 4.0', '>= 4.0.7'
+gem 'simple_form', '~> 3.2'
 group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'

@@ -17,6 +17,7 @@ gem 'haml', '~> 4.0', '>= 4.0.7'
 gem 'simple_form', '~> 3.2'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.5.1'
 gem 'paperclip', '~> 4.3', '>= 4.3.2'
+gem 'cocoon', '~> 1.2', '>= 1.2.6'
 group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'

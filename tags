@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+AddAttachmentImageToRecipes	db/migrate/20151125113352_add_attachment_image_to_recipes.rb	/^class AddAttachmentImageToRecipes < ActiveRecord::Migration$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:RecipeBox
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+CreateDirections	db/migrate/20151125164850_create_directions.rb	/^class CreateDirections < ActiveRecord::Migration$/;"	c
+CreateIngredients	db/migrate/20151125164820_create_ingredients.rb	/^class CreateIngredients < ActiveRecord::Migration$/;"	c
+CreateRecipes	db/migrate/20151124121529_create_recipes.rb	/^class CreateRecipes < ActiveRecord::Migration$/;"	c
+Direction	app/models/direction.rb	/^class Direction < ActiveRecord::Base$/;"	c
+DirectionTest	test/models/direction_test.rb	/^class DirectionTest < ActiveSupport::TestCase$/;"	c
+Ingredient	app/models/ingredient.rb	/^class Ingredient < ActiveRecord::Base$/;"	c
+IngredientTest	test/models/ingredient_test.rb	/^class IngredientTest < ActiveSupport::TestCase$/;"	c
+Recipe	app/models/recipe.rb	/^class Recipe < ActiveRecord::Base$/;"	c
+RecipeBox	config/application.rb	/^module RecipeBox$/;"	m
+RecipeTest	test/models/recipe_test.rb	/^class RecipeTest < ActiveSupport::TestCase$/;"	c
+RecipesController	app/controllers/recipes_controller.rb	/^class RecipesController < ApplicationController$/;"	c
+RecipesControllerTest	test/controllers/recipes_controller_test.rb	/^class RecipesControllerTest < ActionController::TestCase$/;"	c
+RecipesHelper	app/helpers/recipes_helper.rb	/^module RecipesHelper$/;"	m
+change	db/migrate/20151124121529_create_recipes.rb	/^  def change$/;"	f	class:CreateRecipes
+change	db/migrate/20151125164820_create_ingredients.rb	/^  def change$/;"	f	class:CreateIngredients
+change	db/migrate/20151125164850_create_directions.rb	/^  def change$/;"	f	class:CreateDirections
+create	app/controllers/recipes_controller.rb	/^	def create$/;"	f	class:RecipesController
+destroy	app/controllers/recipes_controller.rb	/^	def destroy$/;"	f	class:RecipesController
+down	db/migrate/20151125113352_add_attachment_image_to_recipes.rb	/^  def self.down$/;"	F	class:AddAttachmentImageToRecipes
+edit	app/controllers/recipes_controller.rb	/^	def edit$/;"	f	class:RecipesController
+find_recipe	app/controllers/recipes_controller.rb	/^	def find_recipe$/;"	f	class:RecipesController
+index	app/controllers/recipes_controller.rb	/^	def index$/;"	f	class:RecipesController
+new	app/controllers/recipes_controller.rb	/^	def new$/;"	f	class:RecipesController
+recipe_params	app/controllers/recipes_controller.rb	/^	def recipe_params$/;"	f	class:RecipesController
+show	app/controllers/recipes_controller.rb	/^	def show$/;"	f	class:RecipesController
+up	db/migrate/20151125113352_add_attachment_image_to_recipes.rb	/^  def self.up$/;"	F	class:AddAttachmentImageToRecipes
+update	app/controllers/recipes_controller.rb	/^	def update$/;"	f	class:RecipesController
